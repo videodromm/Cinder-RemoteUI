@@ -79,7 +79,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\..\..\include;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\src;..\..\..\..\..\blocks\Cinder-RemoteUI\src\ofxRemoteUI\noOFLibs\ofxXmlSettings\libs;..\..\..\..\..\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
